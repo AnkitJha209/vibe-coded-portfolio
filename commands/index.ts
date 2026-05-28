@@ -1,6 +1,3 @@
-import whoami from "./whoami";
-import help from "./help";
-import projects from "./projects";
 import echo from "./echo";
 import clear from "./clear";
 import pwd from "./pwd";
@@ -28,6 +25,9 @@ import ping from "./ping";
 import date from "./date";
 import uptime from "./uptime";
 import top from "./top";
+import whoami from "./whoami";
+import help from "./help";
+import projects from "@/data/projects";
 
 const registry: Record<string, any> = {
     whoami,
