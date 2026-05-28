@@ -27,12 +27,13 @@ import uptime from "./uptime";
 import top from "./top";
 import whoami from "./whoami";
 import help from "./help";
-import projects from "@/data/projects";
+import projects from "./projects";
 
 const registry: Record<string, any> = {
     whoami,
     help,
     projects,
+    project: projects,
     echo,
     clear,
     pwd,
